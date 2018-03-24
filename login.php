@@ -28,25 +28,11 @@
 		
 		
 		?>
-<fieldset>
-    <legend><b>LOGIN</b></legend>
-    <form action="login.php" method="post">
-        <table>
-            <tr>
-                <td>User Name</td>
-				<td>:</td>
-                <td><input name="userName" type="text"></td>
-            </tr>
-            <tr>
-                <td>Password</td>
-				<td>:</td>
-                <td><input name="password" type="password"></td>
-            </tr>
-        </table>
-        <hr />
-		<input name="remember" type="checkbox">Remember Me
-		<br/><br/>
-        <input name="login" type="submit" value="Submit">        
-		<a href="forgot_password.html">Forgot Password?</a>
-    </form>
-</fieldset>
+
+<?php 
+	include_once "login_header.php"; 
+?>
+
+<?php 
+	include_once "login_footer.php"; 
+?>

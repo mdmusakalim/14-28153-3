@@ -10,7 +10,7 @@
                     </td>
                     <td align="right">
                         Logged in as <a href="#">Bob</a>&nbsp;|
-                        <a href="#">Logout</a>
+                        <a href="login.php">Logout</a>
                     </td>
                 </tr>
             </table>
@@ -21,7 +21,7 @@
             <b>&nbsp;Account</b><hr />
             <ul>
                 <li><a href="#">Dashboard</a></li>
-                <li><a href="#">View Profile</a></li>
+                <li><a href="profile.php">View Profile</a></li>
                 <li><a href="#">Change Profile Picture</a></li>
                 <li><a href="#">Change Password</a></li>
                 <li><a href="#">Logout</a></li>
